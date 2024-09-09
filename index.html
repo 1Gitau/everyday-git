@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everyday Git</title>
+</head>
+<body style="background-color: chartreuse;">
+    <h2 style="color: darkcyan;">1.Seting up development environment </h2>
+    <h2 style="color: darkcyan;">2.what is Git</h2>
+    <p>Git is a version control syatem.<p>
+    </p>A version control system is a software that is used to track and manage changes to files over time.<p>
+
+    </p>
+        It allows users to revist earlier versions of their files and undo changes 
+    </p>
+    <p>Other version control system includes; subversion,cvs,mercurial.</p>
+    <p>All version control systems have a common goal but they varry significance how they achieve they goals.</p>
+    <p>Git is the most popular and most used version control system.</p>
+    <p>Someone may think git and github are the same but they are totally different.</p><br>
+    <h5>Here are the main differnce between git and github;</h5>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+<table style="width:50%">
+  <tr style="color: blue;">
+    <th>git</th>
+    <th>github</th>
+  </tr>
+  <tr>
+    <td>one  does not need to create an account to use git.</td>
+    <td>you have to create an account to use github.</td>
+  </tr>
+  <tr>
+    <td>Git is a control version that runs locally in your mchine.</td>
+    <td>Github is a sevice that usually host git repositories in the cloud and makes collabolation easier.</td>
+  </tr>
+  <tr>
+    <td>You can use git with using github</td>
+    <td>Github is an online platform to share or to save your complete projects.</td>
+  </tr>
+</table>
+<h2 style="color: darkcyan;">3.Installing Git</h2>
+<p></p>
+<p> To use git you need to download  and install git if you do not have.<br>
+    You can use the link below to download git.
+</p>
+<p><a href="https://git-scm.com/">download git</a>
+the file will be downloded ,click nextnext till git is installed sucesfully</p>
+<h5>How to confirm if you have git installed</h5>
+<p>open command prompt<br>
+    run the commant;
+    <p style="color:red;"> git --version</p>
+    <img src="capture.jpg" alt="Trulli" width="400" height="200"><br></p>
+   <i>with this return means you have git installed in your machine.</i>
+
+<h2 style="color: darkcyan;">4. Configuring Git</h2>
+<p>Since git does not need an account, we need to have an username and an email address </p>
+<h5>confirm the username</h5>
+<p>Open command prompt<br>
+run the command;
+<p style="color:red;">git config --global user.name "username"<br></p>
+   <p> Replace the username with your preffered user name you would like to use eg;Grace</p>
+   <img src="confirm username.jpg" alt="Trulli" width="400" height="200"><br></p>
+   <i>with tis return it shows you have confirmed your username</i>
+   <h5>confirm email</h5>
+   <p>to configure email address we just need to follow the same steps as for user name, <br>
+    but the only thing we cahnge is replacing username with email<br>
+open the command prompt <br>
+Run the command;<br></p>
+<p style="color: red;">git config --global user.email "email address"</p>
+<p>Replacethe user.email with preferable email you want to use eg; gitau0800@gmail.com</p>
+<img src="confirm email.jpg" alt="Trulli" width="400" height="200"><br>
+<h2 style="color: darkcyan;">5.Intializing a Git repository</h2>
+<h5>meaning of a git repository</h5>
+<p>A git repository is a workplace which tracks and manages files within a folder<br>
+Anytime we want to use git with a project we need to create a new git repository.<br>
+every project should it single git repository<br>
+ Once you initialize a repository it cannot be inilized again.
+<br>For you to confirm if the repo is initialized ,we usually rn the command;</p>
+<p style="color: red;">git status</p>
+<h5>how to create or initiate a git repository</h5>
+<p>Opend the command prompt an run the command;<br></p>
+<p style="color:red;">git init </p>
+<p>after running the command you will have initiated the repository as shown below</p>
+<img src="repo.jpg" alt="Trulli" width="400" height="200"><br>
+<h2 style="color: darkcyan;">6.Adding files to the staging area</h2>
+<p>In git,staging area is also known as index.<br>
+its am imtermediate space where you can organize changes before committing them to the repository<br>
+Whwn you make changes the files in your working directory those changes are not imtermeditly changed<br>
+instead we need to add these changes to staging area using <i style="color: red;">git add</i> command</p>
+<img src="staging.jpg" alt="Trulli" width="400" height="200"><br><i>this return shows you have added the changes</i>
+<p>Incase you have more files you want to add to staging area you can simply rusn the command<br>
+  <i style="color: red;">git .</i></p>
+<h2  style="color: darkcyan;">7. Commiting changes</h2>
+<p></p>
+</body>
+</html>
